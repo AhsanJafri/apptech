@@ -1,0 +1,12 @@
+services:
+  scheduler:
+    build:
+      context: ./scheduler
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./scheduler/.env
+    volumes:
+      - ./scheduler/service-account.json:/app/service-account.json:ro
+    restart: unless-stopped

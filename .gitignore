@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Environment
+.env
+.env.local
+*.local
+
+# Native builds
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# Firebase
+.firebase/
+firebase-debug.log
+functions/lib/
+**/service-account.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo

@@ -1,0 +1,14 @@
+{
+  "name": "adsguard",
+  "private": true,
+  "scripts": {
+    "firebase": "firebase",
+    "deploy:rules": "firebase deploy --only firestore:rules,firestore:indexes",
+    "scheduler:dev": "npm run start:dev --prefix scheduler",
+    "scheduler:build": "npm run build --prefix scheduler",
+    "scheduler:start": "npm run start:prod --prefix scheduler"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.0.0"
+  }
+}
