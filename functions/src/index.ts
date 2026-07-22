@@ -39,7 +39,7 @@ export const scheduledAdsTxtCheck = onSchedule(
         const previousStatus = domain.status;
 
         try {
-          const result = await checkAdsTxt(domain.identifier, domain.type);
+          const result = await checkAdsTxt(domain.identifier);
 
           const checkRef = await db
             .collection('users')

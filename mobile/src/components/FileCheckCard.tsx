@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { FileCheckResult } from '@/types';
 import { StatusBadge } from '@/components/StatusBadge';

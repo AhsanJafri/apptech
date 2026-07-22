@@ -93,10 +93,7 @@ function normalizeDomain(domain: string): string {
   return domain.trim().toLowerCase().replace(/^https?:\/\//, '').replace(/\/.*$/, '');
 }
 
-export async function checkAdsTxt(
-  identifier: string,
-  type: 'website' | 'app'
-): Promise<CheckResult> {
+export async function checkAdsTxt(identifier: string): Promise<CheckResult> {
   const domain = normalizeDomain(identifier);
   const fileUrl = `https://${domain}/ads.txt`;
 

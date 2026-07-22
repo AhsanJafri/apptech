@@ -5,7 +5,6 @@ import {
   CheckStatus,
   DomainType,
   FileCheckResult,
-  TrackedLineResult,
   TrackedSellerLine,
 } from '@/types';
 import { normalizeDomain } from '@/utils/validation';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { CheckStatus } from '@/types';
 import { colors } from '@/theme/colors';
